@@ -61,5 +61,5 @@ The best performing Churn prediction model is the Random Forest (200 Trees). Thi
 
 By offering insightful details on the use of churn prediction to improve customer retention in grocery e-retailing, this thesis has made a significant academic advancement in the fields of Data Science, Analytics, and Technologies.
 Instead of taking a generic approach to consumer retention, businesses should increase customer retention by implementing sophisticated personalization and customization tactics that are specific to their needs and preferences.
-The study also suggests a methodical framework for grocery retailers looking to improve customer retention and guarantee customers are kept and retained. The framework, which offers a workable solution, relies on data-driven technical insights leading to proactive strategies that would help the corporate growth of the grocery e-retail business.
+The study also suggests a methodical framework for grocery retailers looking to improve customer retention and guarantee customers are kept and retained. The framework, which offers a workable solution, relies on data-driven technical insights leading to proactive strategies that would help the corporate growth of the grocery e-retail business
 
