@@ -3,27 +3,42 @@
 
 
 ## Project Overview
+This project develops a machine-learning–driven churn prediction solution for grocery e-retailers. It analyses customer behaviour, experience indicators, complaints, payment preferences, and tenure patterns to identify early signals of churn and generate data-backed recommendations for improving customer retention.
 
-This project aims to provide insight into customer churn challenges of an e-retailer by examining the various customer experiences and behaviour, seeking to identify trends, make data driven recommendations and gain meaningful insight into the grocery e-retail customer data.
+The goal is to help e-retail organisations understand why customers leave, which customers are at highest risk, and what interventions can increase loyalty and lifetime value.
  
 ## Data
-The E-commerce Customer Churn Analysis and Prediction dataset was obtained online from Ankit Verma (2021), Product at Ufaber Edutech Pvt Ltd with the permission of Kaggle. https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction 
+The project uses the E-commerce Customer Churn Analysis and Prediction dataset published by Ankit Verma (2021), Product at Ufaber Edutech Pvt Ltd, available on Kaggle:
+https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction 
+
+The dataset contains key behavioural and demographic attributes including satisfaction scores, complaint history, payment methods, and customer tenure — all core predictors of churn in digital retail.
 
 ## Findings
-The following findings were obtained from the dataset
-1. 30% of consumers who shop at the store rated their satisfaction a score of 3, indicating that they are either not very happy or just moderately satisfied with the services they receive from the business.
-2. 2314 signifying 41% of the customer base prefers to make payment with their debit cards.
-3. Longer-staying customers do not constitute the larger proportion of churners but the new ones meaning the higher the tenure the less likely it is to churn. This also can be interpreted as the longer the customer stays, the less likely the churn tendency.
-4. A greater proportion of customers who filed complaints eventually churned.
+Analysis of the dataset revealed the following behavioural and experience-driven insights:
 
-One of the interesting findings is that e-retailers may identify customers who are about to leave or have already decided to go by looking at certain customer behaviour. 
+Satisfaction Levels:
+Approximately 30% of customers rated satisfaction at 3/5, indicating moderate to low satisfaction — a strong churn warning signal.
 
+Payment Preference:
+2,314 customers (41% of the dataset) preferred debit card payments, highlighting a dominant transactional behaviour that retailers can target for personalised incentives.
+
+Customer Tenure:
+New customers were far more likely to churn than long-standing customers. Longer tenure correlated strongly with lower churn probability.
+
+Complaint Behaviour:
+Customers who filed complaints demonstrated significantly higher churn rates, reinforcing the importance of quick and effective customer service resolution.
+
+These findings show that churn risk can be anticipated by monitoring satisfaction decline, complaint frequency, and early-tenure behaviour.
 ## Methods
-Python programming was used to investigate this dataset
+The analytical workflow combines:
 
-SQL was used to query data and analyse
+Python — for data preprocessing, feature engineering, model development, and evaluation
 
-Power BI was utilised to explore relationships between variables through visualisations.
+SQL — for structured querying and behavioural trend analysis
+
+Power BI — for visual analytics, churn drivers, and segment-level insights
+
+This reflects a standard multi-tool pipeline used in industry data science teams.
 
 
 
@@ -48,18 +63,31 @@ The best performing Churn prediction model is the Random Forest (200 Trees). Thi
 
 
 #### Personalisation and Retention Strategies
+Personalised voice-assisted shopping
 
-- Personalized Voice Shopping
-- Customized social commerce
-- Emotional Personalization
-- Personalisation of Gifts
-- Experience Personalised AR/VR Shopping
-- Loyalty Programmes 
+Customised social-commerce experiences
+
+Emotion-aware product recommendations
+
+Personalised gifting suggestions
+
+Immersive AR/VR shopping experiences
+
+Loyalty and reward-driven retention programmes
+
+These strategies align with modern retail personalisation standards and help retailers convert churn insights into meaningful action.
 
 ## Recommendations
 
+This work demonstrates how churn prediction can be integrated into customer-centric operations to significantly improve retention outcomes in grocery e-retailing.
 
-By offering insightful details on the use of churn prediction to improve customer retention in grocery e-retailing, this thesis has made a significant academic advancement in the fields of Data Science, Analytics, and Technologies.
-Instead of taking a generic approach to consumer retention, businesses should increase customer retention by implementing sophisticated personalization and customization tactics that are specific to their needs and preferences.
-The study also suggests a methodical framework for grocery retailers looking to improve customer retention and guarantee customers are kept and retained. The framework, which offers a workable solution, relies on data-driven technical insights leading to proactive strategies that would help the corporate growth of the grocery e-retail business.
+Key recommendations include:
+
+Retailers should replace generic retention strategies with data-driven, personalised interventions tailored to customer needs and behavioural patterns.
+
+Organisations should monitor and react to churn indicators such as declining satisfaction, complaints, and reduced engagement.
+
+The proposed retention framework provides a practical, scalable way for e-retailers to embed churn prediction into CRM systems, customer engagement platforms, and loyalty initiatives.
+
+By operationalising this model, grocery e-retailers can proactively address churn drivers, improve customer lifetime value, and strengthen competitive advantage in the digital marketplace.
 
